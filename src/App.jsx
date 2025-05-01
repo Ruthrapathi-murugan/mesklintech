@@ -4,11 +4,11 @@ import './App.css';
 import Navbar from '../src/components/Navbar';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import Hero from './components/Hero';
-import Products from './components/Products';
-import Services from './components/Services';
-import AboutUs from './components/Aboutus';
-import ContactFooter from './components/ContactFooter';
+import Hero from './components/Hero.jsx';
+import Products from './components/Products.jsx';
+import Services from './components/Services.jsx';
+import AboutUs from './components/Aboutus.jsx';
+import ContactFooter from './components/ContactFooter.jsx';
 
 function App() {
   return (

@@ -1,0 +1,14 @@
+.hero-section {
+    padding-top: 80px; /* To account for fixed navbar */
+  }
+  
+  .btn-primary {
+    background-color: rgb(176, 216, 67);
+    border-color: #0d6efd;
+    color: black;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }

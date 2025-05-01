@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Hero from './components/Hero.jsx';
 import Products from './components/Products.jsx';
 import Services from './components/Services.jsx';
-import AboutUs from './components/Aboutus.jsx';
+import AboutUs from './components/AboutUs.jsx';
 import ContactFooter from './components/ContactFooter.jsx';
 
 function App() {

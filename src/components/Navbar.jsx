@@ -28,16 +28,26 @@ const Navbar = () => {
   return (
     <nav className={`navbar navbar-expand-lg fixed-top ${scrolled ? 'navbar-scrolled' : 'navbar-transparent'}`}>
       <div className="container-fluid px-4 px-lg-5">
-        <a 
-          className="navbar-brand fw-bold" 
-          href="#home"
-          onClick={(e) => {
-            e.preventDefault();
-            scrollToSection('home');
-          }}
-        >
-          Meshlintech
-        </a>
+      <a 
+  className="navbar-brand" 
+  href="#home"
+  onClick={(e) => {
+    e.preventDefault();
+    scrollToSection('home');
+  }}
+  style={{
+    padding: '0.5rem 1rem' // Adjust padding as needed
+  }}
+>
+  <img 
+    src="/images/LOGO.png" // Update with your logo path
+    alt="Meshlintech Logo"
+    style={{
+      height: '40px', // Adjust height as needed
+      width: 'auto'
+    }}
+  />
+</a>
 
         <button 
           className="navbar-toggler" 

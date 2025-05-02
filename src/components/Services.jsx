@@ -35,10 +35,10 @@ const Services = () => {
       <div className="container py-5">
         <div className="text-center mb-5">
           <h1 className="section-title text-white">Our Services</h1>
-          <p className="section-subtitle text-light">
+          <p className="section-subtitle text-light" style={{ fontFamily: 'Geist Mono, monospace' }}>
             We provide end-to-end solutions to help businesses across industries overcome challenges, innovate, and scale.
           </p>
-          <div className="divider mx-auto my-4"></div>
+        
         </div>
 
         <div className="row g-4">
@@ -50,7 +50,7 @@ const Services = () => {
                     <img src={service.icon} alt={service.title} className="img-fluid" />
                   </div>
                   <h2 className="service-title text-dark">{service.title}</h2>
-                  <p className="service-description mb-4 text-muted">{service.description}</p>
+                  <p className="service-description mb-4 text-muted" style={{ fontFamily: 'Geist Mono, monospace' }}>{service.description}</p>
                   <a href="#" className="service-link btn btn-outline-primary">
                     {service.linkText}
                   </a>

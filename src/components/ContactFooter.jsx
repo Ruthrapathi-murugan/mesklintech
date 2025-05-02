@@ -16,7 +16,7 @@ const ContactFooter = () => {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <h2 className="contact-title mb-4">Get in Touch Today</h2>
-              <p className="contact-subtitle mb-5">
+              <p className="contact-subtitle mb-5" style={{ fontFamily: 'Geist Mono, monospace' }}>
                 Let's create the future of your business together. Whether you need consulting, development,
                 or robust digital solutions, Mesklintech is here to help.
               </p>
@@ -74,7 +74,8 @@ const ContactFooter = () => {
         backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/Bg.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
+        backgroundAttachment: 'fixed',
+        fontFamily: 'Geist Mono, monospace'
       }} >
         <div className="container">
           <div className="row">

@@ -5,6 +5,7 @@
   }
   
   .section-title {
+    display: flex;
     font-size: 2.5rem;
     font-weight: 700;
     color: #edf1f5;
@@ -12,16 +13,19 @@
   }
   
   .section-subtitle {
+    display: flex;
     font-size: 1.1rem;
     color: #ffffff;
     max-width: 700px;
-    margin: 0 auto;
+
   }
   
   .divider {
+    display: flex;
+    align-items: flex-start;
     width: 80px;
     height: 3px;
-    background-color: #0d6efd;
+    background-color: #ebedf0;
   }
   
   /* Service Cards */

@@ -55,11 +55,12 @@ const Products = () => {
       }}
     >
       <div className="container">
-        <div className="text-center mb-5">
+        <div className="text mb-5">
           <h2 className="section-title text-white">Our Products</h2>
-          <p className="section-subtitle text-light">
-            We specialize in delivering tailored solutions to address your business needs across these key areas:
-          </p>
+          <p style={{ fontFamily: 'Geist Mono, monospace' }}>
+  We specialize in delivering tailored solutions to address your business needs across these<br></br>
+   key areas:
+</p>
         </div>
 
         <div className="row g-4">
@@ -75,7 +76,7 @@ const Products = () => {
         </div>
         <div className="card-body p-4 text-center">
           <h3 className="product-title mb-3">{product.title}</h3>
-          <p className="product-description mb-3">{product.description}</p>
+          <p className="product-description mb-3"  style={{ fontFamily: 'Geist Mono, monospace' }}>{product.description}</p>
           <a href="#" className="product-link d-inline-block">
             {product.linkText} <i className="fas fa-arrow-right ms-2"></i>
           </a>

@@ -2,9 +2,18 @@
 .about-section {
     background-color: #000000;
     position: relative;
+    display: flex;
+    align-items: flex-start;
    
   }
-  
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
   .about-title {
     font-size: 2.5rem;
     font-weight: 700;
@@ -15,16 +24,14 @@
   }
   
   .divider {
-    width: 80px;
+ 
     height: 3px;
     background-color: #0d6efd;
   }
   
-  .about-content {
-    text-align: center;
-  }
-  
+
   .about-text {
+   
     font-size: 1.1rem;
     line-height: 1.8;
     color: #ffffff;

@@ -13,6 +13,7 @@ const Hero = () => {
         minHeight: '100vh',
         color: 'white',
         position: 'relative',
+        paddingTop: '80px' // Added for navbar spacing
       }}
     >
       {/* Dark overlay */}
@@ -33,22 +34,20 @@ const Hero = () => {
         <div className="row">
           <div className="col-lg-8 mx-auto text-center">
             <h1 
-              className="display-4 fw-bold mb-4" 
+              className="hero-title fw-bold mb-4" 
               style={{ 
                 fontFamily: "'Geist', sans-serif",
-                fontSize: '3.5rem',
                 lineHeight: '1.2',
                 letterSpacing: '-0.5px'
               }}
             >
-              Innovating     <br></br> Tomorrow, Today
+              Innovating <br /> Tomorrow, Today
             </h1>
             
             <p 
-              className="lead mb-4" 
+              className="hero-subtitle mb-4" 
               style={{
-                fontFamily: 'Geist Mono, monospace',
-                fontSize: '1.1rem',
+                fontFamily: "'Geist Mono', monospace",
                 fontWeight: '100'
               }}
             >
@@ -56,10 +55,9 @@ const Hero = () => {
             </p>
             
             <p 
-              className="mb-5 mx-auto" 
+              className="hero-text mb-5 mx-auto" 
               style={{
-                fontFamily: 'Geist Mono, monospace',
-                fontSize: '1.1rem',
+                fontFamily: "'Geist Mono', monospace",
                 fontWeight: '100',
                 lineHeight: '2'
               }}
@@ -71,12 +69,11 @@ const Hero = () => {
             
             <a 
               href="#about" 
-              className="btn btn-primary btn-lg px-4 py-3"
+              className="btn btn-primary btn-lg hero-cta"
               style={{
                 fontFamily: "'Geist', sans-serif",
                 fontWeight: '500',
-                borderRadius: '50px',
-                padding: '12px 32px'
+                borderRadius: '50px'
               }}
             >
               Learn More About Us <i className="fas fa-arrow-right ms-2"></i>

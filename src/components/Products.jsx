@@ -9,37 +9,37 @@ const Products = () => {
     {
       title: "VoIP System",
       description: "Next-gen voice communication system.",
-      linkText: "Learn Here",
+      linkText: "Learn More",
       image: "/images/GIF.png" // Path from public folder
     },
     {
       title: "Cleaning Bot",
       description: "Smart cleaning solutions for modern spaces",
-      linkText: "Learn Here",
+      linkText: "Learn More",
       image: "/images/GIF.png" // Path from public folder
     },
     {
       title: "Garland Machine",
       description: "Efficient, automated garland making machines.",
-      linkText: "Learn Here",
+      linkText: "Learn More",
       image: "/images/GIF2.png" // Path from public folder
     },
     {
       title: "Custom Machines",
       description: "Bespoke IoT and robotic solutions for businesses.",
-      linkText: "Learn Here",
+      linkText: "Learn More",
       image: "/images/GIF3.png" // Path from public folder
     },
     {
       title: "Custom Machines",
       description: "Bespoke IoT and robotic solutions for businesses.",
-      linkText: "Ask to edit",
+      linkText: "Learn More",
       image: "/images/GIF4.png" // Path from public folder
     },
     {
       title: "Custom Machines",
       description: "Bespoke IoT and robotic solutions for businesses.",
-      linkText: "In Here",
+      linkText: "Learn More",
       image: "/images/GIF.png" // Path from public folder
     }
   ];
@@ -56,7 +56,7 @@ const Products = () => {
     >
       <div className="container">
         <div className="text mb-5">
-          <h2 className="section-title text-white">Our Products</h2>
+          <h2 className="section-title text-white"  style={{ fontFamily: 'Geist Mono, monospace' }}>Our Products</h2>
           <p style={{ fontFamily: 'Geist Mono, monospace' }}>
   We specialize in delivering tailored solutions to address your business needs across these<br></br>
    key areas:
@@ -77,7 +77,7 @@ const Products = () => {
         <div className="card-body p-4 text-center">
           <h3 className="product-title mb-3">{product.title}</h3>
           <p className="product-description mb-3"  style={{ fontFamily: 'Geist Mono, monospace' }}>{product.description}</p>
-          <a href="#" className="product-link d-inline-block">
+          <a href="#" className="product-link d-inline-block"  style={{ fontFamily: 'Geist Mono, monospace' }}>
             {product.linkText} <i className="fas fa-arrow-right ms-2"></i>
           </a>
         </div>

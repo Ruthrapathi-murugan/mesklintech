@@ -7,13 +7,14 @@ const Hero = () => {
     <section 
       className="hero-section d-flex align-items-center" 
       style={{
-        backgroundImage: "url('/images/bgp.JPG')",
+        backgroundImage: "url('/images/Bgo.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        minHeight: '100vh',
+        minHeight: '130vh',
         color: 'white',
         position: 'relative',
-        paddingTop: '80px' // Added for navbar spacing
+       
+        paddingTop: '30px' // Added for navbar spacing
       }}
     >
       {/* Dark overlay */}

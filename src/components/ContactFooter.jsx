@@ -7,7 +7,7 @@ const ContactFooter = () => {
     <>
       {/* Contact Section */}
       <section className="contact-section py-5 text-center text-white"  style={{ 
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/Bg.jpg)`,
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6))`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'

@@ -8,25 +8,28 @@ const Services = () => {
       title: "Desktop Support",
       description: "Reliable desktop and IT support services.",
       linkText: "View Details",
-      icon: "/images/services1.png" // Add your icon path
+      media: "/images/Desktop Support.gif", // Changed to GIF
+      isVideo: false
     },
     {
       title: "Surveillance",
       description: "Advanced security and surveillance solutions.",
       linkText: "View Details",
-      icon: "/images/services2.png" // Add your icon path
+      media: "/images/Surveillance.gif", // Changed to GIF
+      isVideo: false
     },
     {
       title: "Software Development",
       description: "Custom software applications for your needs.",
       linkText: "View Details",
-      icon: "/images/services3.png" // Add your icon path
+      media: "/images/Software Development.gif", // Changed to GIF
+      isVideo: false
     }
   ];
 
   return (
     <section className="services-section" style={{ 
-      backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/images/Bg.jpg)`,
+      backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7))`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundAttachment: 'fixed',
@@ -38,19 +41,24 @@ const Services = () => {
           <p className="section-subtitle text-light" style={{ fontFamily: 'Geist Mono, monospace' }}>
             We provide end-to-end solutions to help businesses across industries overcome challenges, innovate, and scale.
           </p>
-        
         </div>
 
         <div className="row g-4">
           {services.map((service, index) => (
             <div key={index} className="col-md-6 col-lg-4">
               <div className="service-card h-100">
+                <div className="service-media-container">
+                  <img 
+                    src={service.media} 
+                    alt={service.title} 
+                    className="service-media"
+                  />
+                </div>
                 <div className="card-body p-4 text-center">
-                  <div className="service-icon mb-3">
-                    <img src={service.icon} alt={service.title} className="img-fluid" />
-                  </div>
-                  <h2 className="service-title text-dark">{service.title}</h2>
-                  <p className="service-description mb-4 text-muted" style={{ fontFamily: 'Geist Mono, monospace' }}>{service.description}</p>
+                  <h2 className="service-title">{service.title}</h2>
+                  <p className="service-description mb-4" style={{ fontFamily: 'Geist Mono, monospace' }}>
+                    {service.description}
+                  </p>
                   <a href="#" className="service-link btn btn-outline-primary">
                     {service.linkText}
                   </a>

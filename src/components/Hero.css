@@ -1,6 +1,7 @@
-/* Hero.css */
 .hero-section {
-  padding-top: 80px; /* Account for fixed navbar */
+  padding-top: 30px; /* Account for fixed navbar */
+
+  opacity: "0.3",
 }
 
 /* Typography */
@@ -19,16 +20,16 @@
 
 /* Button Styles */
 .btn-primary {
-  background-color: rgb(176, 216, 67);
-  border-color: rgb(176, 216, 67);
+  background-color: #C8F104;
+  border-color: #C8F104;
   color: black;
   padding: 12px 32px;
 }
 
 .btn-primary:hover {
-  background-color: rgb(156, 196, 47);
+  background-color: rgb(176, 216, 67);
   border-color: rgb(156, 196, 47);
-  color: black;
+  color: rgb(248, 248, 248);
 }
 
 /* Responsive Breakpoints */

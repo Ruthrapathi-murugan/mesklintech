@@ -55,7 +55,7 @@
   
   /* Get Started Button */
   .btn-outline-light {
-    background-color: rgb(176, 216, 67);
+    background-color: #C8F104;
     border-width: 2px;
     font-weight: 500;
     color: black;
@@ -63,8 +63,8 @@
   }
   
   .btn-outline-light:hover {
-    background-color: white;
-    color: black !important;
+    background-color:  #C8F104;
+    color: rgb(255, 244, 244) !important;
   }
   
   /* Responsive Adjustments */

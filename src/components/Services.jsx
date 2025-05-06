@@ -35,13 +35,15 @@ const Services = () => {
       backgroundAttachment: 'fixed',
       color: 'white'
     }}>
-      <div className="container py-5">
-        <div className="text-center mb-5">
-          <h1 className="section-title text-white">Our Services</h1>
-          <p className="section-subtitle text-light" style={{ fontFamily: 'Geist Mono, monospace' }}>
-            We provide end-to-end solutions to help businesses across industries overcome challenges, innovate, and scale.
-          </p>
-        </div>
+     <div className="container py-5">
+  <div className="text-center mb-5">
+    <h1 className="section-title text-white">Our Services</h1>
+    <p className="section-subtitle">
+      We provide end-to-end solutions to help businesses across industries
+      overcome challenges, innovate, and scale.
+    </p>
+  </div>
+
 
         <div className="row g-4">
           {services.map((service, index) => (

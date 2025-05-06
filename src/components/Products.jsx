@@ -61,7 +61,7 @@ const Products = () => {
 
         <div className="row g-4">
           {products.map((product, index) => (
-            <div key={index} className="col-md-6 col-lg-4">
+            <div key={index} className="col-md-6 col-lg-4" style={{padding:"20px"}} >
               <div className="product-card h-100">
                 <div className="product-media-container">
                   {product.isVideo ? (

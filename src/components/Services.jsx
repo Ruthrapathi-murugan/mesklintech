@@ -6,7 +6,7 @@ const Services = () => {
   const services = [
     {
       title: "Desktop Support",
-      description: "Reliable desktop and IT support services.",
+      description: "Reliable desktop and IT support services...",
       linkText: "View Details",
       media: "/images/Desktop Support.gif", // Changed to GIF
       isVideo: false

@@ -6,6 +6,9 @@
     align-items: flex-start;
    
   }
+  
+
+
   .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -26,7 +29,7 @@
   .divider {
  
     height: 3px;
-    background-color: #0d6efd;
+  
   }
   
 

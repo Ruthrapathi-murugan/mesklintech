@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './ContactFooter.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const ContactFooter = () => {
   return (
@@ -25,11 +27,11 @@ const ContactFooter = () => {
   <div className="col-md-4 mb-4 mb-md-0">
     <div className="contact-method text-center">
       <img 
-        src="/images/Envelope (2).png" 
+        src="/images/Email Us.gif " 
         alt="Email" 
         className="contact-icon-img mb-3"
-        width="50"
-        height="50"
+        width="100"
+        height="100"
       />
       <h4 className="method-title">Email Us</h4>
       <a href="mailto:Mesklintech@gmail.com" className="method-detail">Mesklintech@gmail.com</a>
@@ -39,11 +41,11 @@ const ContactFooter = () => {
   <div className="col-md-4 mb-4 mb-md-0">
     <div className="contact-method text-center">
       <img 
-        src="/images/Envelope (3).png" 
+        src="/images/Call Us.gif" 
         alt="Phone" 
         className="contact-icon-img mb-3"
-        width="50"
-        height="50"
+        width="100"
+        height="100"
       />
       <h4 className="method-title">Call Us</h4>
       <a href="tel:+9112345678" className="method-detail">+91 12345678</a>
@@ -53,11 +55,11 @@ const ContactFooter = () => {
   <div className="col-md-4">
     <div className="contact-method text-center">
       <img 
-        src="/images/Envelope (1).png" 
+        src="/images/Visit Us.gif" 
         alt="Location" 
         className="contact-icon-img mb-3"
-        width="50"
-        height="50"
+        width="100"
+        height="100"
       />
       <h4 className="method-title">Visit Us</h4>
       <p className="method-detail"><a href=''>www.google.com</a></p>
@@ -73,8 +75,8 @@ const ContactFooter = () => {
       <footer className="footer py-5"  style={{ 
         backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/images/Bg.jpg)`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
+        
+     
         fontFamily: 'Geist Mono, monospace'
       }} >
         <div className="container">
@@ -87,6 +89,21 @@ const ContactFooter = () => {
               <p className="footer-about">
                 Whether you need advanced communication systems, smart robotics, customized machines, or expert IT support – we deliver quality solutions you can trust.
               </p>
+                {/* Social Media Icons */}
+        <div className="social-icons">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <FontAwesomeIcon icon={faLinkedin} />
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
+        </div>
             </div>
             
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">

@@ -8,7 +8,7 @@ const AboutUs = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10 col-xl-8">
-            <div className="text-center mb-5">
+            <div >
               <h1 className="about-title">About Us</h1>
               <div className="divider mx-auto my-4"></div>
             </div>
